@@ -1,6 +1,6 @@
 [
   {
-    "created_at": "2016-09-30T01:29:27.826Z", 
+    "created_at": "2016-09-30T02:08:27.584Z", 
     "mmtune": {
       "scanDetails": [
         [
@@ -140,6 +140,6 @@
       "batteryVoltage": 3664
     }, 
     "device": "openaps://indy-e1", 
-    "_id": "57edbff760d451125084c74f"
+    "_id": "57edc91b60d451125084c750"
   }
 ]
