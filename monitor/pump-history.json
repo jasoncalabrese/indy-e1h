@@ -1,5 +1,78 @@
 [
   {
+    "programmed": 1.8, 
+    "_type": "Bolus", 
+    "_description": "Bolus 2016-10-06T12:21:26 head[8], body[0] op[0x01]", 
+    "timestamp": "2016-10-06T12:21:26", 
+    "_body": "", 
+    "appended": [
+      {
+        "_type": "UnabsorbedInsulinBolus", 
+        "_description": "UnabsorbedInsulinBolus unknown head[11], body[0] op[0x5c]", 
+        "data": [
+          {
+            "amount": 0.3, 
+            "age": 123
+          }, 
+          {
+            "amount": 0.3, 
+            "age": 323
+          }, 
+          {
+            "amount": 0.6, 
+            "age": 333
+          }
+        ], 
+        "_body": "", 
+        "_head": "5c0b0c7bc00c43d0184dd0", 
+        "_date": ""
+      }
+    ], 
+    "_head": "0100480048000400", 
+    "amount": 1.8, 
+    "unabsorbed": 0.1, 
+    "duration": 0, 
+    "type": "normal", 
+    "_date": "9a952c0610"
+  }, 
+  {
+    "_type": "BolusWizard", 
+    "bg": 188, 
+    "bg_target_high": 180, 
+    "_description": "BolusWizard 2016-10-06T12:21:26 head[2], body[15] op[0x5b]", 
+    "timestamp": "2016-10-06T12:21:26", 
+    "_body": "285000dc5a730200480000040048b4", 
+    "_head": "5bbc", 
+    "unabsorbed_insulin_total": 0.1, 
+    "correction_estimate": 0.05, 
+    "_date": "9a950c0610", 
+    "bolus_estimate": 1.8, 
+    "bg_target_low": 115, 
+    "carb_ratio": 22.0, 
+    "food_estimate": 1.8, 
+    "carb_input": 40, 
+    "sensitivity": 90
+  }, 
+  {
+    "_type": "BGReceived", 
+    "link": "c23647", 
+    "_description": "BGReceived 2016-10-06T12:20:58 head[2], body[3] op[0x3f]", 
+    "timestamp": "2016-10-06T12:20:58", 
+    "_body": "c23647", 
+    "_head": "3f17", 
+    "amount": 188, 
+    "_date": "ba948c6610"
+  }, 
+  {
+    "_type": "CalBGForPH", 
+    "_description": "CalBGForPH 2016-10-06T12:20:58 head[2], body[0] op[0x0a]", 
+    "timestamp": "2016-10-06T12:20:58", 
+    "_body": "", 
+    "_head": "0abc", 
+    "amount": 188, 
+    "_date": "ba942c6610"
+  }, 
+  {
     "_type": "TempBasalDuration", 
     "duration (min)": 30, 
     "_description": "TempBasalDuration 2016-10-06T12:17:33 head[2], body[0] op[0x16]", 
@@ -801,24 +874,5 @@
     "_head": "3314", 
     "rate": 0.5, 
     "_date": "a696064610"
-  }, 
-  {
-    "_type": "BGReceived", 
-    "link": "c23647", 
-    "_description": "BGReceived 2016-10-06T06:20:28 head[2], body[3] op[0x3f]", 
-    "timestamp": "2016-10-06T06:20:28", 
-    "_body": "c23647", 
-    "_head": "3f0f", 
-    "amount": 120, 
-    "_date": "9c94066610"
-  }, 
-  {
-    "_type": "CalBGForPH", 
-    "_description": "CalBGForPH 2016-10-06T06:20:28 head[2], body[0] op[0x0a]", 
-    "timestamp": "2016-10-06T06:20:28", 
-    "_body": "", 
-    "_head": "0a78", 
-    "amount": 120, 
-    "_date": "9c94266610"
   }
 ]
