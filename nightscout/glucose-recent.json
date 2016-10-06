@@ -2123,22 +2123,5 @@
     "_id": "57f54f2165110bbfc1943c9b", 
     "type": "sgv", 
     "glucose": 102
-  }, 
-  {
-    "trend_arrow": "45_DOWN", 
-    "display_time": "2016-10-05T11:54:34-07:00", 
-    "noise": 1, 
-    "system_time": "2016-10-05T18:42:59-07:00", 
-    "direction": "FortyFiveDown", 
-    "sgv": 112, 
-    "dateString": "2016-10-05T11:54:34-07:00", 
-    "device": "openaps://indy-e1/cgm", 
-    "unfiltered": 131840, 
-    "rssi": 179, 
-    "date": 1475693674000, 
-    "filtered": 144288, 
-    "_id": "57f54ca665110bbfc1943c99", 
-    "type": "sgv", 
-    "glucose": 112
   }
 ]
